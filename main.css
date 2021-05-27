@@ -1,0 +1,82 @@
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .container{
+            margin: 0 auto;
+            margin-top: 120px;
+            position:relative;
+            text-align:center;
+            width:50%;
+            box-shadow: 1px 2px 20px grey;
+        }
+        h1{
+          left: 50%;
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+        margin-bottom:20px;
+
+        }
+        .list-container{
+            display:flex;
+            justify-content: center;
+            /* border: 3px solid red; */
+            border-radius: 10px;
+            margin:0 auto ;
+            width: 40%;
+            height:100%;
+            
+        }
+        .alisveris-listesi{
+            position: absolute;
+            transform: translate(-20%, -50%);
+            text-align: left;
+            width: 100%;
+            font-weight:bold;
+            font-size:24px;
+            line-height:40px;
+            color:rgba(0,0,0,0.6);
+            /* border:1px solid green; */
+            padding:20px 0px;
+
+        }
+        .alisveris-listesi>ol>li{
+            text-align: left;
+            letter-spacing:2px;
+        }
+        .alisveris-listesi>ol>li:nth-child(odd){
+            background-color: rgba(0,0,0,0.1);
+        }
+        .textAl{
+            height: 50px;
+            width: 300px;
+            padding-left:20px;
+            font-weight: bold;
+            font-size:28px;
+            letter-spacing:2px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px gray;1
+        }
+        .ekle{
+            background-color: rgba(37, 37, 133, 0.753);
+        }
+        .sil{
+            background-color: rgb(179, 14, 14);
+        }
+
+        .ekle, .sil{
+            padding:10px 20px;
+            color: whitesmoke;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 24px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 1px 1px 6px gray;1
+
+        }
+
