@@ -9,6 +9,7 @@
             position:relative;
             text-align:center;
             width:50%;
+            border-radius: 10px;
             box-shadow: 1px 2px 20px grey;
         }
         h1{
@@ -43,6 +44,10 @@
             padding:20px 0px;
 
         }
+        h1{
+            text-align: center;
+            text-shadow: 1px 2px 3px grey;
+        }
         .alisveris-listesi>ol>li{
             text-align: left;
             letter-spacing:2px;
@@ -52,7 +57,7 @@
         }
         .textAl{
             height: 50px;
-            width: 300px;
+            width: 50%;
             padding-left:20px;
             font-weight: bold;
             font-size:28px;
@@ -79,4 +84,5 @@
             box-shadow: 1px 1px 6px gray;1
 
         }
+        
 
