@@ -8,7 +8,7 @@
             margin-top: 120px;
             position:relative;
             text-align:center;
-            width:50%;
+            width:60%;
             border-radius: 10px;
             box-shadow: 1px 2px 20px grey;
         }
@@ -27,14 +27,12 @@
             /* border: 3px solid red; */
             border-radius: 10px;
             margin:0 auto ;
-            width: 40%;
+            width: 55%;
             height:100%;
             
         }
         .alisveris-listesi{
-            position: absolute;
-            transform: translate(-20%, -50%);
-            text-align: left;
+            text-align:left;
             width: 100%;
             font-weight:bold;
             font-size:24px;
